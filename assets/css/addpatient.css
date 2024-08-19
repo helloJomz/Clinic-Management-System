@@ -1,0 +1,224 @@
+body{
+    background-color: #e2ebfc;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.font-blue{
+    color: #4e73df;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.main-container{
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.minor-text{
+    position: relative;
+    bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #b4aba0;
+}
+
+
+input[type="text"]:focus{
+    outline-color: #4e73df;
+}
+
+input[type="password"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #b4aba0;
+}
+
+input[type="password"]:focus{
+    outline-color: #4e73df;
+}
+
+select{
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 215px;
+    border: 1px solid #b4aba0;
+}
+
+select:focus{
+    outline-color: #4e73df;
+}
+
+input[type="date"]{
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 215px;
+    border: 1px solid #b4aba0;
+}
+
+input[type="date"]:focus{
+    outline-color: #4e73df;
+}
+
+
+small{
+    margin-left: 1px;
+}
+
+.buttonContainer{
+    height: 8%;
+}
+
+.buttonContainer button{
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4e73df;
+    color: #fff;
+    font-weight: 700;
+}
+
+.tabPanel{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.table-1 td{
+    padding: 20px;
+}
+
+input[type="file"]{
+    border: none;
+}
+
+.physicaldiv{
+    margin-top: 40px;
+    height: 380px;
+}
+
+.physicaltbl{
+    position: relative;
+    left: 120px;
+    border-collapse: collapse;
+    font-size: 14px;
+    max-width: 100%;
+    margin-top: -10px;
+    background-color: #fff;
+}
+
+.physicaltbl td, .physicaltbl th{
+    border: 1px solid black;
+    padding: 10px ;
+    width: auto;
+}
+
+.physicaltbl th{
+    text-align: center;
+}
+
+.physicaltbl [type="radio"]{
+    margin-left: 20px;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+
+.medicationtbl{
+    border-collapse: collapse;
+    font-size: 14px;
+    max-width: 100%;
+    margin-top: -10px;
+    background-color: #fff;
+}
+
+.medicationtbl input[type="text"]{
+    width: 300px;
+}
+
+.add_more{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #42ba96;
+    position: relative;
+    left: 5px;
+}
+
+.minus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #df4759;
+    position: relative;
+    left: 5px;
+}
+
+.medicationtbl td, .medicationtbl th{
+    border: 1px solid black;
+    padding: 20px ;
+    width: auto;
+}
+
+.medicationtbl th{
+    text-align: center;
+}
+
+.medicationtbl-div{
+    position: relative;
+    left: 380px;
+}
+
+
+.file-div{
+    margin-top: 20px;
+    position: relative;
+    left: 150px;
+}
+
+.file-table{
+    border-collapse: collapse;
+    font-size: 14px;
+    max-width: 100%;
+    margin-top: -10px;
+    background-color: #fff;
+}
+
+.file-table th{
+    border: 1px solid black;
+    padding: 20px 25px;
+    width: auto;
+    text-align: center;
+}
+
+.file-table td{
+    border: 1px solid black;
+    padding: 20px 25px;
+    width: auto;
+    text-align: center;
+}
+
+.default-panel{
+    height: 500px;
+}
+
+.create{
+    background-color: #42ba96;
+    color: white;
+}
+
+

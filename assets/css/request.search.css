@@ -1,0 +1,429 @@
+body{
+    background-color: #e2ebfc;
+    font-family: 'Nunito', sans-serif;
+}
+
+.search-bar{
+    outline: none;
+    border-radius: 16px;
+    border: solid 1.5px #D3D3D3;
+    padding: 0px 150px 0px 60px;
+    font-size: 16px;
+    height: 50px;
+    width: 600px;
+    position: relative;
+    left: 90px;
+}
+
+.patientmode{
+    border: none;
+    outline: none;
+    position: relative;
+    right: 60px;
+    padding: 8px 0px;
+    text-align-last:center;
+    background-color: #fff !important;
+}
+
+.search-icon{
+    position: relative;
+    right: 630px;
+}
+
+
+.main-card{
+    position: relative;
+    left: 360px;
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-card td{
+    padding: 10px;
+}
+
+.table-responsive{
+   margin: 0px 15px 0px 15px;
+   height: 400px;
+}
+
+.table img{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+
+}
+
+.name{
+   position: relative;
+   top: 5px;
+
+}
+
+.section{
+   position: relative;
+   top: 10px;
+}
+
+.font-green{
+    color: #32CD32;
+    font-size: 25px ;
+}
+
+.bg-green{
+    background-color: #32cd32 !important;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.font-green-only{
+    color: #32CD32;
+}
+
+tbody tr:hover{
+    background-color: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: #4e73df;
+    transition: 0.5s;
+}
+
+
+/* PATIENT PROFILE */
+
+.bg-blue{
+    background-color: #4e73df;
+}
+
+.fetchprofile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.info-card{
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+    overflow-y: auto;
+}
+
+.bg-lightblue{
+    background-color: #e2ebfc;
+}
+
+.allergycard{
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+
+@media screen and (max-width: 1256px){
+
+    .search-container{
+        position: relative;
+        left: 8%;
+    }
+
+    .main-wrapper{
+        margin-right: 20%;
+
+    }
+}
+
+@media screen and (max-width: 1199px){
+
+    .main-card{
+        left: 23%;
+    }
+
+    .main-wrapper{
+        padding-right: 10%;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 991px){
+
+    .main-wrapper{
+        margin-right: 20%;
+
+    }
+
+    .patientmode{
+        position: absolute;
+        left: 90%;
+        top: 5%;
+    }
+
+    .search-icon{
+        position: absolute;
+        left: 20%;
+        top: 25%;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+
+    .search-container{
+        margin-right: 5%;
+    }
+
+    .main-wrapper{
+        margin-right: 25%;
+
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .main-wrapper{
+        position: absolute;
+        left: -5%;
+
+    }
+}
+
+
+@media screen and (max-width: 767px){
+
+    .search-container{
+        margin-left: 5%;
+    }
+
+    .patientmode{
+        position: absolute;
+        left: 440px;
+    }
+
+    .search-icon{
+        position: absolute;
+        left: 120px;
+    }
+
+    .search-bar{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 699px){
+
+    .main-wrapper{
+        position: absolute;
+        left: -10%;
+
+    }
+
+}
+
+@media screen and (max-width: 699px){
+
+    .main-card{
+        width: 500px;
+        overflow-y: hidden;
+    }
+
+    .main-wrapper{
+        position: absolute;
+        left: -5%;
+
+    }
+
+    .search-container{
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 601px){
+
+    .main-wrapper{
+        position: absolute;
+        left: -10%;
+
+    }
+
+}
+
+@media screen and (max-width: 601px){
+
+    .search-container{
+        margin-left: -15%;
+    }
+
+    .search-bar{
+        width: 350px;
+        font-size: 12px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 400px;
+        font-size: 12px;
+    }
+
+    .search-icon{
+        display: none;
+    }
+
+    .main-card{
+        width: 400px;
+    }
+
+    .main-wrapper{
+        position: absolute;
+        left: -5%;
+
+    }
+
+}
+
+@media screen and (max-width: 510px){
+
+    .main-wrapper{
+        position: absolute;
+        left: -10%;
+
+    }
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 380px;
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 483px){
+
+    .main-wrapper{
+        position: absolute;
+        left: -15%;
+
+    }
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 380px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 483px){
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 370px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 452px){
+
+    .search-bar{
+        width: 300px;
+        font-size: 12px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 330px;
+        font-size: 12px;
+    }
+
+    .main-card{
+        width: 350px;
+    }
+
+    .main-wrapper{
+        position: absolute;
+        left: -15%;
+
+    }
+
+}
+
+@media screen and (max-width: 411px){
+    
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 310px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    
+    #search-result td:nth-child(3){
+        display: none;
+    }
+
+    .search-container{
+        margin-left: -25%;
+    }
+
+    .search-bar{
+        width: 250px;
+        font-size: 12px;
+        padding: 0px 40px 0px 10px;
+    }
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 290px;
+        font-size: 12px;
+    }
+
+    .main-card{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 348px){
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 280px;
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 331px){
+
+    .patientmode{
+        position: absolute;
+        top: 15%;
+        left: 270px;
+        font-size: 12px;
+    }
+
+    .main-wrapper{
+        position: absolute;
+        left: -20%;
+
+    }
+
+
+}
+
+
+

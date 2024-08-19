@@ -1,0 +1,338 @@
+body{
+    background-color: #e2ebfc;
+}
+
+.bg-green{
+    background-color: #32cd32;
+}
+
+.font-green{
+    color: #32cd32;
+}
+
+.bg-green{
+    background-color: #32cd32;
+}
+
+.bg-blue{
+    background-color: #4e73df;
+}
+.wrapper_current_patient{
+    width: 500px;
+}
+
+.current_patient{
+    width: 500px;
+    height: 350px;
+    background-color: #fff;
+}
+
+.current_patient img{
+    width: 200px;
+    height: 200px;
+}
+
+.btn-menu{
+    border-radius: 0px 0px 5px 5px;
+}
+
+.list_patient{
+    background-color: #fff;
+    width: 800px;
+    height: 550px;
+}
+
+td img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#current_patient_display{
+    height: 310px;
+}
+
+.queue-overflow{
+    max-height: 400px;
+    overflow: auto;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+
+
+/***************** SEARCH ***************/
+
+.search-patient{
+    outline: none;
+    border-radius: 16px;
+    border: solid 1.5px #D3D3D3;
+    padding: 0px 150px 0px 60px;
+    font-size: 16px;
+    height: 50px;
+}
+
+.select-patient{
+    outline: none;
+    padding: 8px 0px;
+    text-align-last:center;
+}
+
+.removeBorder{
+    border: none !important;
+}
+
+.removeBorder select{
+    border: none;
+    outline: none;
+    padding: 8px 0px;
+    text-align-last:center;
+    border: solid 1px #d3d3d3;
+}
+
+.selectprofile{
+    font-size: 30px;
+}
+
+tbody tr:hover{
+    background-color: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: #4e73df;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1256px) {
+    
+    .list_patient{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+
+    .list_patient{
+        width: 500px;
+    }
+
+    .current_patient{
+        width: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 1002px) {
+    
+    .ulti-wrapper{
+        display: flex;
+        /*Do not forget next line, or items won't wrap*/
+        flex-wrap: wrap;
+    }
+
+    .current_patient{
+        flex: 1 0 100%;
+        position: relative;
+        left: 50%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 40%;
+        width: 600px;
+    }
+
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .current_patient{
+        left: 30%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 10%;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .current_patient{
+        left: 15%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: -5%;
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 685px) {
+ 
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 0;
+        width: 550px;
+    }
+
+}
+
+@media screen and (max-width: 605px) {
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 3%;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    
+    .current_patient{
+        width: 300px;
+        height: 250px;
+        position: relative;
+        left: 22%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 15%;
+        width: 400px;
+    }
+
+    #current_patient_display img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .btn-menu{
+     position: relative;
+     top: -50%;
+    }
+
+}
+
+@media screen and (max-width: 478px) {
+
+    .current_patient{
+        width: 300px;
+        height: 250px;
+        position: relative;
+        left: 12%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 5%;
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 447px) {
+
+    .current_patient{
+        width: 300px;
+        height: 250px;
+        position: relative;
+        left: 12%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 5%;
+        width: 370px;
+    }
+
+}
+
+@media screen and (max-width: 416px) {
+
+    
+    .current_patient{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 17%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 12%;
+        width: 300px;
+    }
+
+
+}
+
+@media screen and (max-width: 364px){
+
+    .current_patient{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 14%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 8%;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 348px){
+
+    .current_patient{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 12%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: 0;
+        width: 310px;
+    }
+
+
+}
+
+@media screen and (max-width: 348px){
+
+    .current_patient{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 12%;
+    }
+
+    .list_patient{
+        margin-top: 10%;
+        position: relative;
+        left: -2%;
+        width: 310px;
+    }
+
+
+}

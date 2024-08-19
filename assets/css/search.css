@@ -1,0 +1,220 @@
+body{
+    background-color: #e2ebfc;
+}
+
+.search-wrapper{
+    text-align: center;
+}
+
+.search-box{
+    width: 60%;
+    height: 50px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    padding: 0px 170px;
+}
+
+.search-dropdown{
+    position:relative;
+    left: 12%;
+    height: 50px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    background-color: #fff !important;
+}
+
+.search-button{
+    font-size: 17px;
+    position: relative;
+    right: 4%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.search-card{
+    border-radius: 16px;
+    background-color: #fff;
+
+}
+
+.address{
+    font-size: 12px;
+}
+
+.go-icon{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #42ba96;
+}
+
+.semi-bold{
+    font-weight: 700;
+}
+
+.add-patient{
+    position: relative;
+    bottom: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #4e73df;
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.move-modal{
+    position: relative;
+    right: 250px;
+}
+
+.content-modal{
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.main-table{
+    overflow: auto;
+    height: 400px;
+}
+
+.modal-btn1, .modal-btn2, .modal-btn3{
+    border: none;
+    background-color: #4e73df;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.modal-btn1:hover{
+    background-color: #40c3f3;
+    color: black;
+    position: relative;
+    bottom: 20px;
+}
+
+.modal-btn2:hover{
+    background-color: #40c3f3;
+    color: black;
+    position: relative;
+    bottom: 20px;
+}
+
+.modal-btn3:hover{
+    background-color: #40c3f3;
+    color: black;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+
+@media screen and (max-width: 992px){
+    .search-box{
+        padding: 0px 170px;
+        width: 70%;
+    }
+
+    .search-dropdown{
+        left: 22%;
+    }
+
+    .search-button{
+        right: 7%;
+    }
+
+    .search-wrapper{
+        position: relative;
+        right: 6%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .search-wrapper{
+        position: relative;
+        right: 12%;
+    }
+
+    .search-dropdown{
+        left: 30%;
+    }
+
+
+    .search-box{
+        padding: 0px 50px 0px 170px;
+        width: 70%;
+    }
+
+    .search-button{
+        position: absolute;
+        top: 25%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 481px){
+
+    .search-wrapper{
+        position: relative;
+        right: 0;
+    }
+
+    .search-dropdown{
+        position: absolute;
+        left: 20%;
+        padding: 0;
+        font-size: 14px;
+    }
+
+
+    .search-box{
+        padding: 0px 50px 0px 170px;
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .search-button{
+        position: absolute;
+        top: 25%;
+        right: 18%;
+    }
+
+}
+
+@media screen and (max-width: 452px){
+
+    .search-wrapper{
+        position: relative;
+        right: 0;
+    }
+
+    .search-dropdown{
+        position: absolute;
+        left: 5%;
+        padding: 0;
+        font-size: 14px;
+    }
+
+
+    .search-box{
+        padding: 0px 50px 0px 170px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .search-button{
+        position: absolute;
+        top: 25%;
+        right: 5%;
+    }
+
+}

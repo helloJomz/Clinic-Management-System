@@ -1,0 +1,211 @@
+
+    body{
+        background-color: #e2ebfc;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .bold{
+        font-weight: 700;
+    }
+
+    .white{
+        background-color: #fff;
+    }
+
+    .font-gray{
+        color: #939090;
+    }
+
+    .font-green{
+        color: #42ba96;
+    }
+
+    .search{
+        border-radius: 16px;
+        border: solid 1.5px #D3D3D3;
+        outline: none;
+        padding: 0px 20px;
+        font-size: 13px;
+        -webkit-transition: 1s; /* Safari */
+        transition: 1s;
+    }
+
+    .search:hover{
+        box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    }
+
+    .search:focus {
+        box-shadow: 0 0 5pt 2pt #D3D3D3;
+        outline-width: 0px;
+    }
+
+    .med_tbl td{
+        padding: 20px 10px;
+    }
+    
+    .searchIcon{
+        position: relative;
+        top: 4px;
+        left: 615px;
+        color: #939090;
+    }
+
+    tbody{
+        display: block;
+        height: 340px;
+        overflow-y: scroll;
+        padding-bottom: 30px;
+    }
+
+    thead, tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;/* even columns width , fix width of table too*/
+    }
+
+    /* th{
+        border: none;
+        padding: 15px !important;
+    } */
+    
+    thead{
+        background-color: #4e73df;
+        color: white;
+        
+    }
+
+    .addmedcard input[type="text"]{
+        border-radius: 5px;
+        padding: 10px 10px;
+        border: 1px solid #b4aba0;
+        font-size: 14px;
+    }
+
+
+    .addmedcard input[type="text"]:focus{
+        outline-color: #4e73df;
+    }
+
+    .addmedcard select{
+        border-radius: 5px;
+        padding: 10px 10px;
+        width: 240px;
+        border: 1px solid #b4aba0;
+        font-size: 14px;
+    }
+
+    .addmedcard select:focus{
+        outline-color: #4e73df;
+    }
+
+    .addmedcard input[type="date"]{
+        border-radius: 5px;
+        padding: 10px 10px;
+        width: 240px;
+        border: 1px solid #b4aba0;
+    }
+
+    .addmedcard input[type="date"]:focus{
+        outline-color: #4e73df;
+    }
+
+    .addmedcard input, label{
+        display: block;
+    }
+
+    .errorClass{
+        border:1px solid red !important;
+    }
+
+    .errorLabel{
+        color: red  !important;
+    }
+
+    .thActions{
+        position: relative;
+        left: 10px;
+    }
+
+    tbody tr:hover{
+        background-color: #f2f2f2;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        color: #4e73df;
+        transition: 0.5s;
+    }
+    
+    /* MEDICINE PROFILE */
+
+    .profile-bg{
+        background-color: #4e73df;
+    }
+
+
+    .profile-card{
+        background-color: #fff;
+        height: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .profile-card tbody{
+        height: 120px !important;
+        padding: 0;
+    }
+
+    .bg-gray{
+        background-color: #e2ebfc;
+    }
+
+    .gray{
+        background-color: #f2f2f2;
+    }
+
+    .thead-profile th{
+        padding: 0 !important;
+        background-color: #e2ebfc !important;
+        color: black;
+    }
+
+    .bg-green{
+        background-color: #32CD32;
+    }
+
+    .font-blue{
+        color: #4e73df;
+    }
+
+    .nostocks{
+        border: none;
+    }
+
+    .configalert{
+        width: 610px;
+    }
+
+    /* DISABLED MEDICINES */
+
+    .activateMedicine{
+        position: relative;
+        left: 40px;
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 533px) {
+        .med_tbl tr th{
+            font-size: 12px;
+        }
+
+        .med_tbl tr td{
+            font-size: 12px;
+        }
+
+        .thActions{
+            padding-right: 10px;
+        }
+
+    }
+
+    @media screen and (max-width: 767px){
+        .search{
+            width: 100%;
+        }
+    }

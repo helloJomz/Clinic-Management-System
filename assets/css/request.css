@@ -1,0 +1,230 @@
+
+    body{
+        background-color: #e2ebfc;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .bg-blue{
+        background-color: #4e73df;
+    }
+
+    .card1{
+        padding: 10px;
+    }
+
+    .card2{
+        position: relative;
+        left: 2%;
+        background-color: yellow;
+        padding: 10px;
+        max-height: 500px;
+        overflow: auto;
+    }
+
+    .patient-profile img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+   
+
+    .search-bar{
+        outline: none;
+        border-radius: 16px;
+        border: solid 1.5px #D3D3D3;
+        padding: 0px 20px;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    .complete-search ul{
+        display: none;
+        border-radius: 0px 0px 16px 16px;
+        position:absolute;
+        left:387px;
+        padding:0;
+        z-index:1000px;
+    }
+
+    .show-ul{
+        display: block !important;
+    }
+
+    .complete-search ul{
+        width: 20%;
+        margin: auto;
+    }
+
+    .complete-search ul a
+    {
+        display:block;
+        text-decoration:none;
+        font-weight:700;
+        font-size:12px;
+        line-height:32px;
+        padding:0 15px;
+
+    }
+
+    .complete-search ul li:hover{
+        background-color: #e2ebfc;
+    }
+
+    .list-group-item{
+        text-align: center;
+        outline: none;
+        border: solid 1.5px #D3D3D3;
+        z-index: 999;
+        width:100%;
+    }
+
+    .search-bar:hover{
+        box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    }
+
+    .search-icon{
+        position: absolute;
+        left: 920px;
+        z-index: 1;
+    }
+
+    .med-name{
+        border-radius: 16px;
+        padding: 5px;
+    }
+
+    .med-stocks-tbl{
+        max-height: 150px;
+    }
+
+    .request-form input[type="text"]{
+        outline: none;
+        border-radius: 16px;
+        border: solid 1.5px #D3D3D3;
+        padding: 20px 20px;
+        height: 30px;
+    }
+
+  
+    
+    .stocks-tbl thead{
+        color: #fff;
+    }
+
+    .bg-white{
+        background-color: #fff;
+    }
+
+    .clear-all{
+        position: relative;
+        bottom: 6px;
+    }
+
+    .select-box{
+        width: 20px;
+        height: 20px;
+    }
+
+    .bg-green{
+        background-color: #32CD32;
+    }
+
+    .errorClass{
+        border:1px solid red !important;
+    }
+
+    .errorLabel{
+        color: red  !important;
+    }
+
+    .cart_tbl td{
+        padding: 10px 10px;
+    }
+
+    .table-responsive{
+        height: 365px;
+    }
+
+    /* PROFILE */
+
+    
+.bg-blue{
+    background-color: #4e73df;
+}
+
+.fetchprofile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.info-card{
+    height: 500px;
+    border-radius: 20px 20px 0px 0px;
+    overflow-y: auto;
+}
+
+.bg-lightblue{
+    background-color: #e2ebfc;
+}
+
+.allergycard{
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+.font-green{
+    color: #32CD32;
+    font-size: 25px ;
+}
+
+.bg-green{
+    background-color: #32cd32 !important;
+}
+
+.font-green-only{
+    color: #32CD32;
+}
+
+.main-wrapper{
+    width: 1000px;
+}
+
+
+
+@media screen and (max-width: 615px){
+
+    .main-wrapper{
+        width: 500px;
+    }
+   
+}
+
+@media screen and (max-width: 615px){
+
+    .main-wrapper{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 473px){
+
+    .main-wrapper{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 383px){
+
+    .main-wrapper{
+        width: 300px;
+    }
+
+    .med-text-qty{
+        width: 200px;
+    }
+
+}
+

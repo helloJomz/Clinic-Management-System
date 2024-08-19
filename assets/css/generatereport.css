@@ -1,0 +1,19 @@
+body{
+    background-color: #e2ebfc;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.buttonContainer{
+    height: 8%;
+}
+
+.buttonContainer button{
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #4e73df;
+    color: #fff;
+}
